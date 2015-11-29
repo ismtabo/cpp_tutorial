@@ -28,6 +28,7 @@ El `5` en este código es el _literal constante_ que expresa en código fuente e
 1.6e-19    // 1.6 x 10^-19
 3.0        // 3.0
     ```
+    
 | Tipo | Ejemplo | Sufijo |
 |--------|--------|----|
 |    _float_    |    6.02e23f    | `f` o `F` |
