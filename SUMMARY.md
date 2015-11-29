@@ -15,4 +15,5 @@
 * [Operadores](operadores/README.md)
    * [Operadores aritméticos, bit a bit, evaluación y lógicos](operadores/aritmeticos.md)
    * [Asignación compuesta](operadores/asignacion_compuesta.md)
+   * Incremento y decremento (++,&#45;&#45;)
 
