@@ -1,7 +1,7 @@
 # Summary
 
 * [Introducción](README.md)
-   * [Descripción del tutorial](descripcion.md) 
+   * [Descripción del tutorial](descripcion.md)
 * [Compiladores](compiladores.md)
 * [Estructura de un programa](estructura_programa.md)
 * [Tipos de datos](tipos_de_datos/tipos_de_datos.md)
@@ -13,4 +13,5 @@
        * [Expresiones tipadas](tipos_de_datos/constantes/expresiones_tip.md)
        * [Definiciones de preprocesador](tipos_de_datos/constantes/preprocesador.md)
 * [Operadores](operadores.md)
+   * Operadores aritméticos, bit a bit, evaluación y lógicos
 
