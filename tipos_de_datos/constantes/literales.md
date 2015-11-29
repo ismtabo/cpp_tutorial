@@ -11,7 +11,7 @@ Los literales son constante que expresan un valor particular. Como vimos antes, 
 El `5` en este código es el _literal constante_ que expresa en código fuente el valor que queremos darle. Los literales constantes están clasificados en los siguientes tipos:
 - **Enteros**(_Integer_):
 	
-    | Tipo | Ejemplo | sufijo |
+| Tipo | Ejemplo | sufijo |
 |--------|--------|
 |    decimal    |   75     |
 | octal | 0113 |
