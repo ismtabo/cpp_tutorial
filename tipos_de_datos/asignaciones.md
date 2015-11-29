@@ -1,5 +1,5 @@
 Asignaciones
-====
+----
 
 Declaración y operaciones sobre variables
 ```cpp
