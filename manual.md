@@ -3,8 +3,6 @@ Introducción a C++
 
 Contenidos
 
-[TOC]
-
 Introducción
 ----
 <small><small>[(Arriba)](#)</small></small>
