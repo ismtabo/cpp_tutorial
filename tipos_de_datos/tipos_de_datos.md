@@ -1,7 +1,8 @@
 Tipos de datos
 ----
-<small><small>[(Arriba)](#)</small></small>
+
 Como en la mayoría de los lenguajes el operador para la declaración de variables es el `=`.
+
 ```cpp
 a = 5;
 b = 2;
