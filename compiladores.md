@@ -1,6 +1,6 @@
 Compiladores
-----
-<small><small>[(Arriba)](#)</small></small>
+====
+
 Un **compilador** es un programa informático que traduce un programa escrito en un lenguaje de alto nivel al lenguaje del ordenador.
 
 Para aquellos que ya habéis trabajado con otros lenguajes compilados como **C** o **Java**, estaréis familiarizados con esto. Compilar un programa de **C++** no es muy distinto, supongamos el siguiente código ejemplo de nuestro archivo `helloworld.cpp`. Por fortuna es nuestro conocido _"Hello World"_ en **C++**.
