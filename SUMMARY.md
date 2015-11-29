@@ -14,5 +14,5 @@
        * [Definiciones de preprocesador](tipos_de_datos/constantes/preprocesador.md)
 * [Operadores](operadores/README.md)
    * [Operadores aritméticos, bit a bit, evaluación y lógicos](operadores/aritmeticos.md)
-   * Asignación compuesta
+   * [Asignación compuesta](operadores/asignacion_compuesta.md)
 
