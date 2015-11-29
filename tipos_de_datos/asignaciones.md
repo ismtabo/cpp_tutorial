@@ -32,5 +32,5 @@ Salida
 
 En el caso anterior hemos dado un ejemplo en el que operamos con las distintas variables declaradas. Como has podido observar hemos operado sobre enteros y luego hemos imprimido por pantalla el resultado.
 
->- ¿Cómo harías para operar sobre tipos de coma flotante?
->- ¿Es posible sumar un entero a un float, o a un caracter?¿Cuál es el resultado final?
+> - ¿Cómo harías para operar sobre tipos de coma flotante?
+> - ¿Es posible sumar un entero a un float, o a un caracter?¿Cuál es el resultado final?
