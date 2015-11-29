@@ -13,5 +13,5 @@
        * [Expresiones tipadas](tipos_de_datos/constantes/expresiones_tip.md)
        * [Definiciones de preprocesador](tipos_de_datos/constantes/preprocesador.md)
 * [Operadores](operadores/README.md)
-   * [Operadores aritméticos, bit a bit, evaluación y lógicos](operadores/aritmeticos)
+   * [Operadores aritméticos, bit a bit, evaluación y lógicos](operadores/aritmeticos.md)
 
