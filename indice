@@ -1,0 +1,79 @@
+1. Introducción
+2. Compiladores
+3. Tutorial básico
+	1. Conceptos básicos
+	2. Asignaciones
+		1. Fundamentales
+			1. Enteros
+			2. Caracteres
+			3. Reales
+			4. signed/unsigned
+			5. void
+		2. Derivados
+			1. Punteros
+				1. Punteros y direcciones
+				2. Puntero NULL
+				3. Puntero a carácter
+				4. Puntero void
+			2. Vectores
+				1. Relación vectores-punteros
+				2.  new / delete
+		3. Compuestos
+			1. Estructuras
+				1. Punteros y estructuras
+			2. Uniones (Anónimas)
+			3. Campos de bits
+		4. Constantes no literales
+			1. Constantes
+			2. Enumerados (Anónimos)
+		5. Creación de nuevos tipos
+		6. Conversión (cast)
+	3. Sentencias de control
+		1. Decisiones
+			1.  if-else
+			2. switch
+		2. Bucles
+			1.  while
+			2. do-while
+			3. for
+		3. Salto
+			1.  break
+			2. continue
+			3. return
+	4. Operadores y expresiones
+	5. Funciones
+		1. Punteros a funciones
+	6. Entrada/Salida
+		1. Inserción y Extracción
+			1. Salida
+			2. Entrada
+			3. Operadores << y >>
+		2. Ficheros
+	7. Clases
+	1. Clases y miembros
+		1. Métodos
+		2. Parámetros implícitos this
+		3. Atributos
+		4. Métodos internos y externos
+		5. Acceso a miembros
+		6. Sobrecarga de operadores
+	2. Creación e inicialización
+		1. Inicializadores
+		2. Constructor (por defecto/generales)
+		3. Destructor
+		4. Copia y asignación / Retorno del *this por valor-referencia
+	3. Conversión /Composición
+	4. Constantes
+	5. Objetos dinámicos
+	6. Constantes
+	7. Objetos dinámicos
+	8. Herencia y Polimorfismo
+		1. Herencia
+		2. Especialización
+		3. Composición vs. Herencia
+		4. Herencia múltiple
+		5. Polimorfismo
+	9. Genericidad (templates)
+		1. Funciones genéricas
+		2. Clases genéricas
+		3. Abstracción vs. Genericidad
