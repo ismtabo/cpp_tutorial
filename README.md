@@ -11,9 +11,9 @@ Este tutorial está dirigido a aquellas personas que nunca han programado en **C
 **C++** está considerado un lenguaje multiparadigma, entre las que se encuentra la _orientación a objetos_, _imperativo_, o la _programación genérica_. En esta introducción al lenguaje aprenderemos a definir variables, y crear nuestros propios tipos de datos y operadores, manejar las estructuras de control, y la entrada y salida del programa, y a dominar las bases de la creación e implementación de clases y clases genéricas.
 
 Al final de esta **Hour of Code**, espero que **C++** os haya convencido y sea de vuestro gusto para vuestros próximos proyectos, prácticas o para rellenar las aptitudes de **LinkedIn**.
-<center>
-_Sin más dilación comenzamos con el tutorial._
-</center>
+_<center>
+Sin más dilación comenzamos con el tutorial.
+</center>_
 
 ###Descripción del tutorial
 
