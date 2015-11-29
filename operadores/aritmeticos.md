@@ -19,21 +19,7 @@ Operadores aritméticos, bit a bit, evaluación y lógicos
 | <= | Menor o igual que |
 | >= | Mayor o igual que ||
 
-Asignación compuesta (+=, -=, *=, /=, %=, >>=, <<=, &=, ^=, |=)
-----
 
-```cpp
-#include <iostream>
-using namespace std;
-
-int main ()
-{
-  int a, b=3;
-  a = b;
-  a+=2;
-  cout << a;
-}
-```
 > ¿Qué valor tendrá `a` al final de la ejecución?
 
 Es decir, `a+=2` es equivalente a:
