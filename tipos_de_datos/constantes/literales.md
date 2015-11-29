@@ -13,7 +13,7 @@ El `5` en este código es el _literal constante_ que expresa en código fuente e
 	
 | Tipo | Ejemplo | sufijo |
 |--------|--------|----|
-|    decimal    |   75     |
+|    decimal    |   75     ||
 | octal | 0113 ||
 | hexadecimal | 0x04b ||
 | _int_ | 75 ||
