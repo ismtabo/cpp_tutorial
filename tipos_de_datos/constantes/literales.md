@@ -59,31 +59,36 @@ Es similar a
 x = "string expressed in two lines"
 ```
     - Caracteres de escape
-  | Escape code | Description |
-  | ---- | ----- |
-| \n | newline 
-| \r | carriage return
-| \t | tab
-| \v | vertical tab
-| \b | backspace
-| \f | form feed (page feed)
-| \a | alert (beep)
-| \' | single quote (')
-| \" | double quote (")
-| \? | question mark (?)
-| \\ | backslash (\)
+    
+    | Escape code | Description |
+    | ---- | ----- |
+    | \n | newline |
+    | \r | carriage return |
+    | \t | tab |
+    | \v | vertical tab |
+    | \b | backspace |
+    | \f | form feed (page feed) |
+    | \a | alert (beep) |
+    | \' | single quote (') |
+    | \" | double quote (") |
+    | \? | question mark (?) |
+    | \\ | backslash (\) |
+    
 	- Prefijos especiales:
 		- Caracteres:
-	| Prefijo | Tipo | 
-|--------|--------|
-|    u    |    _char16_t_    |
-| U | _char32_t_ |
-| L | _wchar_t_ |
+		
+        | Prefijo | Tipo | 
+        |--------|--------|
+        |    u    |    _char16_t_    |
+        | U | _char32_t_ |
+        | L | _wchar_t_ |
 		- String:
-		| Prefjo | Descripción | Ejemplo |
-|--------|--------|
-| u8 | Literal codificado en UTF-8 |
-| R | _raw strin_ | `R"(string with \backslash)"` |
+		
+        | Prefjo | Descripción | Ejemplo |
+        |--------|--------|-----|
+        | u8 | Literal codificado en UTF-8 |
+        | R | _raw strin_ | `R"(string with \backslash)"` |
+
 - Otros literales:
 	```cpp
 bool foo = true;
