@@ -27,5 +27,3 @@ Es decir, `a+=2` es equivalente a:
 a = a + 2;
 ```
 
-Incremento y decremento (++,&#45;&#45;)
-----
