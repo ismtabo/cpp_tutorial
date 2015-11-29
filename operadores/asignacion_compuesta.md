@@ -1,5 +1,5 @@
 Asignación compuesta (+=, -=, *=, /=, %=, >>=, <<=, &=, ^=, |=)
-----
+====
 
 ```cpp
 #include <iostream>
