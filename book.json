@@ -1,12 +1,13 @@
 {
+    
+    "structure": {
+        "readme": "introduccion.md"
+    },
     "plugins": ["atoc"],
     "pluginsConfig": {
         "atoc": {
             "addClass": true,
             "className": "atoc"
         }
-    },
-    "structure": {
-        "readme": "introduccion.md"
     }
 }
