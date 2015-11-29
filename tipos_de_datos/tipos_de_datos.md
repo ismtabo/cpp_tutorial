@@ -26,7 +26,7 @@ El tipado de **C++** el tipado es **fuerte**, **estático** y **nominativo**. Re
 
 Pero veamos que tipos de datos hay en **C++** y como podemos generar los nuestros propios.
 
-####Asignaciones
+###Asignaciones
 
 Declaración y operaciones sobre variables
 ```cpp
