@@ -1,7 +1,6 @@
-
 Estructura de un programa
-----
-<small><small>[(Arriba)](#)</small></small>
+====
+
 Revisemos el código anterior:
 ```cpp
 // mi primer programa en C++
