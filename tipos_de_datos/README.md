@@ -9,6 +9,7 @@ b = 2;
 a = a-1;
 result = a - b;
 ```
+
 El tipado de **C++** el tipado es **fuerte**, **estático** y **nominativo**. Recordando, esto significa que _no se pueden usar una variable definida con un tipo concreto como si fuera de otro distinto_(_fuerte_), _una vez declarado el tipo de una variable este no puede cambiar_ (_estático_) y _los tipos de las variables son declaradas por el programador_ (_nominativo_).
 
 Tipos fundamentales
