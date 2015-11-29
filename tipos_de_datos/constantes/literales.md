@@ -14,12 +14,12 @@ El `5` en este código es el _literal constante_ que expresa en código fuente e
 | Tipo | Ejemplo | sufijo |
 |--------|--------|----|
 |    decimal    |   75     |
-| octal | 0113 |
-| hexadecimal | 0x04b |
-| _int_ | 75 |
-| _unsigned int_  | 75u | `u`
-| _long_ | 75l | `l`
-| _unsigned long_ | 75ul ó 75lu | `ul` o `lu`
+| octal | 0113 ||
+| hexadecimal | 0x04b ||
+| _int_ | 75 ||
+| _unsigned int_  | 75u | `u`|
+| _long_ | 75l | `l`|
+| _unsigned long_ | 75ul ó 75lu | `ul` o `lu`|
 
 - **Punto flotante**(_Floating Point_): 
 	```cpp
