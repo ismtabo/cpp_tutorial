@@ -5,5 +5,10 @@
             "addClass": true,
             "className": "atoc"
         }
+    },
+    {
+    "structure": {
+        "readme": "introduccion.md"
     }
+}
 }
