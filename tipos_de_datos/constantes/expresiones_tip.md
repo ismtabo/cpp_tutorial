@@ -21,3 +21,7 @@ int main ()
   cout << newline;
 }
 ```
+
+De esta manera no tendremos que podremos reutilizar el literal todas las veces que queramos, y en caso de necesitar cambiarlo sólo habría que modificar el valor inicialmente asignado.
+
+> Intente modificar el literal constante `pi` y fíjese en el error producido.
