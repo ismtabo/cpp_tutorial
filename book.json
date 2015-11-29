@@ -1,8 +1,4 @@
 {
-    
-    "structure": {
-        "readme": "introduccion.md"
-    },
     "plugins": ["atoc"],
     "pluginsConfig": {
         "atoc": {
