@@ -6,9 +6,7 @@
             "className": "atoc"
         }
     },
-    {
     "structure": {
         "readme": "introduccion.md"
     }
-}
 }
