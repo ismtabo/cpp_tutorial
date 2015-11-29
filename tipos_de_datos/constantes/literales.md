@@ -12,7 +12,7 @@ El `5` en este código es el _literal constante_ que expresa en código fuente e
 - **Enteros**(_Integer_):
 	
 | Tipo | Ejemplo | sufijo |
-|--------|--------|
+|--------|--------|----|
 |    decimal    |   75     |
 | octal | 0113 |
 | hexadecimal | 0x04b |
@@ -29,7 +29,7 @@ El `5` en este código es el _literal constante_ que expresa en código fuente e
 3.0        // 3.0
     ```
 	| Tipo | Ejemplo | Sufijo |
-|--------|--------|
+|--------|--------|----|
 |    _float_    |    6.02e23f    | `f` o `F` |
 | _long double_ | 3.14159L | `l` o `L` |
 
