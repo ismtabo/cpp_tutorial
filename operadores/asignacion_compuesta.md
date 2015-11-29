@@ -13,4 +13,9 @@ int main ()
   cout << a;
 }
 ```
+> ¿Qué valor tendrá `a` al final de la ejecución?
 
+Es decir, `a+=2` es equivalente a:
+```cpp
+a = a + 2;
+```
