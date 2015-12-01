@@ -1,0 +1,2 @@
+# Entrada estandar (cin)
+
