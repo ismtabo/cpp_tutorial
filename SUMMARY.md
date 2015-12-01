@@ -17,5 +17,5 @@
    * [Asignación compuesta](operadores/asignacion_compuesta.md)
    * [Incremento y decremento (++,&#45;&#45;)](operadores/incremento_y_decremento.md)
    * [Asignacion ternaria](operadores/asignacion_ternaria.md)
-       * Operador coma, casting y _sizeof_
+   * [Operador coma, casting y _sizeof_](operadores/coma_cast_size.md)
 
