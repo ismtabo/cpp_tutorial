@@ -21,5 +21,5 @@
 * [Entrada y salida básica](entrada_salida_basica.md)
    * [Salida estandar (cout)](iostream/salida_estandar_cout.md)
    * [Entrada estandar (cin)](iostream/entrada_estandar_cin.md)
-       * cin y strings
+       * [cin y strings](iostream/cin_y_strings.md)
 
