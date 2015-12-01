@@ -53,4 +53,4 @@ En este caso el valor asignado a `x` será 1, ya que un tipo _char_ ocupa un _by
 
 Este operador se ejecuta en tiempo de compilación, por lo tanto en tiempo de ejecución el valor ya está determinado.
 
-En el bloque anterior de tipos de datos, puedes encontrar una tabla con los tamaños de cada variable.
+En el bloque anterior de tipos de datos, puedes encontrar una tabla con los tamaños de cada tipo básico.
