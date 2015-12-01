@@ -19,5 +19,5 @@
    * [Asignacion ternaria](operadores/asignacion_ternaria.md)
    * [Operador coma, casting y _sizeof_](operadores/coma_casting_size.md)
 * [Entrada y salida básica](entrada_salida_basica.md)
-   * Salida estandar (cout)
+   * [Salida estandar (cout)](iostream/salida_estandar_cout.md)
 
