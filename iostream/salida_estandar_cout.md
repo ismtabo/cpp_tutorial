@@ -49,5 +49,11 @@ Primera sentencia.
 Segunda sentencia.
 ```
 
+**Ejercicios**
+> - Imprime por pantalla tu nombre y tu edad separados por un espacio.
+> - Imprime por pantalla, dadas dos variables enteras `a = 2` y `b = 3`, la suma de estas dos variables formateda de la siguiente manera:<br>`La suma de <a> y <b> es <suma>`
+> - Imprime un texto cualquiera con más de una línea mediante dos sentencias distintas y mediante una sentencia. _Consejo_: `endl` no sólo puede usarse para insertarse al final de la sentencia, sino también en medio de ella.
+
+
 
 
