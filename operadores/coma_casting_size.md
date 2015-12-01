@@ -20,7 +20,7 @@ a = b+2;
 Casting
 ----
 
-Algo que nos va a interesar a la hora de codificar **C++** es como pasar de un tipo de variables a otras. Como en otros lenguajes, lo haremos mediante un _casting_. Esta carácterística se ha heredado de **C** por lo que el código es similar.
+Algo que nos va a interesar a la hora de codificar **C++** es como pasar de un tipo de variables a otras. Como en otros lenguajes, lo haremos mediante un _casting_. Esta característica se ha heredado de **C** por lo que el código es similar.
 
 ```cpp
 int i;
