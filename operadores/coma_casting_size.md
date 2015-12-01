@@ -42,3 +42,13 @@ i = (int)s;
 ```
 Para ello existen funciones especiales. En este caso para pasar de _string_ a _int_ existe la función `std::stoi()`, que convertirá una cadena en un entero, si es posible.
 
+_size_
+----
+
+Este operador acepta un único parámetro, que puede ser un tipo o una variable, y devuelve el tamaño en _bytes_(B) del tipo o variable:
+```cpp
+x = sizeof (char);
+```
+En este caso el valor asignado a `x` será 1, ya que un tipo _char_ ocupa un _byte_.
+
+Este operador se ejecuta en tiempo de compilación, por lo tanto en tiempo de ejecución el valor ya está determinado.
