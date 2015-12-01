@@ -1,2 +1,5 @@
-# Asignacion ternaria
+Asignacion ternaria
+====
+
+
 
