@@ -1,0 +1,2 @@
+# Salida estandar (cout)
+
