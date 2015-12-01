@@ -54,3 +54,5 @@ y = x;
 ```
 
 Ocurriendo lo mismo con el decremento.
+
+**Aviso**: esta diferencia puede ser importante según su uso en los programas, ya que hay que tener en cuenta el orden de la asignación y el in/decremento cuando estemos asignando o comparando con otra variable, o al ser parte de una operación mayor.
