@@ -27,17 +27,19 @@ Pero hay una diferencia según la precedencia del operador. Según ejecutemos `x
 
 Veamos los siguientes ejemplos:
 
-| ++x | x++ |
-|-----|-----|
-|```cpp
+**++x**
+```cpp
 x = 3;
 y = ++x;
-//x contains 4, y contains 4
-```|```cpp
+//x contiene 4, y contiene 4
+```
+
+**x++**
+```cpp
 x = 3;
 y = x++
-// x contains 4, y contains 3
-```|
+// x contiene 4, y contiene 3
+```
 
 Esta diferencia se produce ya que cuando operamos con `x++` la primera operación que se ejecuta es la asignación, y después se incrementa:
 ```cpp
