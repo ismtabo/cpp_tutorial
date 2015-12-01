@@ -1,3 +1,54 @@
 Incremento y decremento (++,&#45;&#45;)
 ====
+```cpp
+#include <iostream>
+using namespace std;
 
+int main ()
+{
+  int a, b=3;
+  a = b;
+  b = a++;
+  a = ++b;
+  cout << a <<endl;
+  cout << b;
+}
+```
+> - ¿Cuál será el resultado del código anterior? ¿En qué se diferencia `a++` de `++b`?
+> - ¿Te esperabas el resultado?
+
+Las operaciones de incremento `++` y decremento `--` nos dan a entender que son equivalentes a las sentencias vistas en el apartado anterior:
+```cpp
+a += 1
+a -= 1
+```
+
+Pero hay una diferencia según la precedencia del operador. Según ejecutemos `x++` o `++x` el resultado será distinto, de manera igual para el decremento.
+
+Veamos los siguientes ejemplos:
+
+| ++x | x++ |
+|-----|-----|
+|```cpp
+x = 3;
+y = ++x;
+//x contains 4, y contains 4
+```|```cpp
+x = 3;
+y = x++
+// x contains 4, y contains 3
+```|
+
+Esta diferencia se produce ya que cuando operamos con `x++` la primera operación que se ejecuta es la asignación, y después se incrementa:
+```cpp
+y = x;
+x += 1;
+```
+
+En cambio, con `++x`, ocurre al revés:
+```cpp
+x += 1;
+y = x;
+```
+
+Ocurriendo lo mismo con el decremento.
