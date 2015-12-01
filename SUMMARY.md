@@ -16,4 +16,5 @@
    * [Operadores aritméticos, bit a bit, evaluación y lógicos](operadores/aritmeticos.md)
    * [Asignación compuesta](operadores/asignacion_compuesta.md)
    * [Incremento y decremento (++,&#45;&#45;)](operadores/incremento_y_decremento.md)
+   * Asignacion ternaria
 
