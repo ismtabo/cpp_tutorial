@@ -1,2 +1,4 @@
-# Entrada estandar (cin)
+Entrada estandar (_cin_)
+====
+
 
