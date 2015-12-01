@@ -28,5 +28,10 @@ int main ()
 }
 ```
 
+De esta manera, se obtendrá el contenido de la línea entera, esperando la pulsación de la tecla ENTER (o RETURN) para finalizar la extracción.
+
+**Ejercicio**
+> Lea por teclado dos líneas, una primera que contenga su nombre y primer apellido, y una segunda línea que tome el día y el mes de nacimiento separados por un espacio. El programa deberá imprimir por pantalla tus iniciales junto con la fecha de nacimiento con el formato `dd/mm`.
+
 
 
