@@ -74,7 +74,7 @@ int main ()
 ```
 > ¿Qué salida esperamos en el código anterior?
 
-Operadores de acceso a un elemento: `.at(.)`, `[.]`, `.back()`, `.front()`.
+Operadores de acceso a un elemento: `.at()`, `[]`, `.back()`, `.front()`.
 Operadores para conocer el tamaño del string: `.size()`, `.length()`
 
 Más información: [referencia](http://www.cplusplus.com/reference/string/string/)
