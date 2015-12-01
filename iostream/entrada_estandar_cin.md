@@ -43,3 +43,6 @@ cin >> a;
 cin >> b;
 ```
 
+**Ejercicio**
+> - Lee por teclado dos valores enteros separados por un espacio, e imprime por pantalla el mayor valor de ambos. _Consejo_: puedes usar la asignación ternaria, ya vista, para hallar el mayor valor de los dos.
+> - Lee por teclado tu nombre y el día actual, luego imprime por pantalla el módulo de la longitud de tu nombre sobre el valor del día actual.
