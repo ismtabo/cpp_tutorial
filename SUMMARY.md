@@ -27,4 +27,5 @@
 * [Sentencias y control de flujo](flow_control/sentencias_y_control_de_flujo.md)
    * [if-else](flow_control/if-else.md)
    * [Bucles](flow_control/bucles.md)
+       * while
 
