@@ -20,4 +20,11 @@ scanf("%d", &a);
 E imprimir por salida estandar:
 
 ```cpp
-cout<<
+cout << "Tengo " << age << " años y mi codigo postal es " << codigo_postal;
+```
+
+Somos capaces de sustituirlo por la sentencia equivalente en `printf`:
+
+```cpp
+printf("Tengo %d y mi codigo postal es %d", edad, codigo_postal);
+```
