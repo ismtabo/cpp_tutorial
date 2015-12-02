@@ -29,10 +29,10 @@ cout << "Este " << " es una " << "única sentencia de C++";
 Esta sentencia es útil al querer mezclar literales y variables para formatear la salida, como hacemos en el siguiente ejemplo.
 
 ```cpp
-cout << "Tengo " << age << " años y mi codigo postal es " << codigo_postal;
+cout << "Tengo " << edad << " años y mi codigo postal es " << codigo_postal;
 ```
 
-Suponiendo que la variable `age` contiene el valor 24 y el `codigo_postal` contiene el valor 47001. La salida será 
+Suponiendo que la variable `edad` contiene el valor 24 y el `codigo_postal` contiene el valor 47001. La salida será 
 
 `Tengo 24 años y mi codigo postal es 47001`
 
