@@ -54,7 +54,7 @@ else
   cout << "x es 0";
 ```
 
-En este caso, decidimos sobre tres sentencias que se irán resolviendo según se vayan considerando las condiciones en orden de ejecución, sabiendo que si no se cumple una condición encapsulada en un `if` se sigue en el `else` correspondiente.
+En este caso, decidimos sobre tres sentencias que se irán resolviendo según se vayan considerando las condiciones en orden de ejecución, sabiendo que si no se cumple una condición encapsulada en un `if` se sigue en el `else` correspondiente. También debemos recordar la posibilidad de decisión sobre un conjunto de sentencias mediante `{}` para agruparlas.
 
 **Ejercicio**
 > - Recogiendo por entrada estandar dos palabras separadas por un espacio en blanco. Imprima cuál de las dos es tiene mayor longitud, imprimiendo la palabra seguida por la longitud.
