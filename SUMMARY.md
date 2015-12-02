@@ -23,6 +23,7 @@
    * [Entrada estandar (cin)](iostream/entrada_estandar_cin.md)
        * [cin y strings](iostream/cin_y_strings.md)
        * [stringstream](iostream/stringstream.md)
+       * Entrada y salida compatible con C
 * [Sentencias y control de flujo](flow_control/sentencias_y_control_de_flujo.md)
    * [if-else](flow_control/if-else.md)
 
