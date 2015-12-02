@@ -37,3 +37,5 @@ El flujo del anterior código de la siguiente manera:
 * `while` evalua la expresión y esta no se cumple.
 * Se ignora el conjunto de operacionessentencias y se prosigue con l a ejecución.
 * Se ejecuta la sentencia `cout<<"Despegue!\n";`
+
+Como vemos el bucle se
