@@ -30,7 +30,6 @@ Esta sentencia es útil al querer mezclar literales y variables para formatear l
 
 ```cpp
 cout << "Tengo " << age << " años y mi codigo postal es " << codigo_postal;
-
 ```
 
 Suponiendo que la variable `age` contiene el valor 24 y el `codigo_postal` contiene el valor 47001. La salida será 
