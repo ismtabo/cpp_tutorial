@@ -38,4 +38,13 @@ El flujo del anterior código de la siguiente manera:
 * Se ignora el conjunto de operacionessentencias y se prosigue con l a ejecución.
 * Se ejecuta la sentencia `cout<<"Despegue!\n";`
 
-Como vemos el bucle se
+Como vemos el bucle se repite en este caso un número de veces determinado ya que la condición se evalúa sobre un valor numérico, y existe un decremento dentro del conjunto de código. Esta evaluación se puede hacer con cualquier expresión lógica que hemos visto con anteriodad.
+
+**Pregunta**
+> - ¿Qué pasaría si la condición siempre se cumpliese?
+
+**Ejercicio**
+> - Modifica el código anterior con la función `.sleep_for(chrono::seconds(1) )`[[referencia]](http://www.cplusplus.com/reference/thread/this_thread/sleep_for/) para que el programa espera un segundo por cada iteración, y no se ejecute todo seguido.
+> - Cree un código que dado un string por entrada estandar, vaya imprimiendo el string quitando por cada vuelta el último caracter, hasta que quede vacío.
+
+
