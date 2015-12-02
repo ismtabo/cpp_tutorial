@@ -26,4 +26,5 @@
        * [Entrada y salida compatible con C](iostream/io_compatible_con_c.md)
 * [Sentencias y control de flujo](flow_control/sentencias_y_control_de_flujo.md)
    * [if-else](flow_control/if-else.md)
+   * Bucles (while)
 
