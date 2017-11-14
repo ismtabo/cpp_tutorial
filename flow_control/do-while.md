@@ -11,10 +11,10 @@ int main ()
 {
   int n = 10;
 
-  while (n>0) {
+   do{
     cout << n << ", ";
     --n;
-  }
+  }while (n>0)
 
   cout << "¡Despegue!\n";
 }
@@ -23,6 +23,13 @@ int main ()
 
 **Pregunta**
 > - ¿Qué pasaría si la condición siempre se cumpliese?
+
+**Pregunta 2**
+> - ¿Qué pasaría si n=-1  antes de empezar el bucle y la condición sea n>1?
+
+
+
+
 
 **Ejercicio**
 > - Modifica el código anterior con la función `.sleep_for(chrono::seconds(1) )`[[referencia]](http://www.cplusplus.com/reference/thread/this_thread/sleep_for/) para que el programa espera un segundo por cada iteración, y no se ejecute todo seguido.
