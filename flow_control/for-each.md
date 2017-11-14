@@ -1,6 +1,5 @@
 # for-each
-Este bucle sirve para iterar sobre elementos iterables (array)
-y acceder a sus valores directamente:
+Este bucle sirve para iterar sobre elementos iterables (array) y acceder a sus valores directamente:
 ```cpp
 #include <iostream>
 using namespace std;
@@ -17,6 +16,7 @@ int main ()
 ```
 Esto nos permite recorrer el vector, pero no nos permite modificar el valor que contiene n, otra opción es:
 
+```cpp
 int main ()
 {
   int vector[]={1,2,3,4,5,6,7};
@@ -27,3 +27,5 @@ int main ()
 
   cout << "¡Despegue!\n";
 }
+```
+Es **importante** remarcar que esto solo funciona con el **estándar 11 de C++**
