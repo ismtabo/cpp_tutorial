@@ -32,4 +32,5 @@
     * [for](flow_control/for.md)
     * [for-each](flow_control/for-each.md)
 * [Punteros](puntos.md)
+  * [Operadores](puntos/operadores.md)
 
