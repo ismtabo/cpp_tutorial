@@ -26,5 +26,16 @@ El flujo del código anterior es el siguiente:
   - se incrementa el valor n(1).
   - `for`evalúa la expresión,
   - como es verdadera repetirá las operaciones.
-  - Esto se repetirá hasta que n sea igual a 10 (que la condición se cumpla
+  - Esto se repetirá hasta que n sea igual a 10 (que la condición se cumpla)
+- Se ignora el conjunto de sentencias y se prosigue con la ejecución.
+- Se ejecuta la sentencia `cout<<"Despegue!\n";`
+
+Una alternativa de representar el for, es la siguiente:
+```cpp
+int n;
+for( n=0; n<=10; n++)  {
+    cout << n << ", ";
+  }
+```
+
 
