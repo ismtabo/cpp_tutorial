@@ -9,4 +9,5 @@ tipo nombre(tipo param1, tipo param2, ...)
 }
 ```
 Donde:
-- **tipo** es el tipo del dato que devuelve. Si no devuelve nada se declara de tipo "void". 
+- **tipo** es el tipo del dato que devuelve. Si no devuelve nada se declara de tipo "void". Si no se especifica tipo se asume que es entero.
+- **nombre** es el nombre con el que se identifica la función.
