@@ -37,5 +37,14 @@ for( n=0; n<=10; n++)  {
     cout << n << ", ";
   }
 ```
+**Pregunta**
+>- En este último ejemplo ¿Qué pasará con el valor de n tras la ejecución? Se mantiene o no.
 
+**Ejercicio**
+>- Hacer un código C++ que imprima por pantalla <br> 1 <br> 12 <br> 123 <br> 1234
+>- Consejo: usar dos for anidados
+
+**Ejercicio 2**
+>- Hacer un código C++ que imprima por pantalla <br> Esto en la iteración n: X, y en la iteración i: Y
+>- Consejo: usar dos for anidados
 
