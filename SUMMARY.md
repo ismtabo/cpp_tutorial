@@ -31,6 +31,7 @@
     * [do-while](flow_control/do-while.md)
     * [for](flow_control/for.md)
     * [for-each](flow_control/for-each.md)
-* [Punteros](puntos.md)
-  * [Operadores](puntos/operadores.md)
+* Funciones
+* [Punteros](punteros.md)
+  * [Operadores](punteros/operadores.md)
 
