@@ -30,4 +30,5 @@
     * [while](flow_control/while.md)
     * [do-while](flow_control/do-while.md)
     * [for](flow_control/for.md)
+    * [for-each](flow_control/for-each.md)
 
