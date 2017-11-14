@@ -32,7 +32,6 @@ El flujo del código anterior es el siguiente:
 
 Una alternativa de representar el for, es la siguiente:
 ```cpp
-#include <iostream>
 int n;
 for( n=0; n<=10; n++)  {
     cout << n << ", ";
