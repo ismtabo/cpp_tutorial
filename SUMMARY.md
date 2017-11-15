@@ -33,6 +33,7 @@
     * [for-each](flow_control/for-each.md)
 * [Funciones](funciones.md)
   * [Declaración](funciones/declaracion.md)
+  * [Llamadas a funciones](funciones/llamadas-a-funciones.md)
 * [Punteros](punteros.md)
   * [Operadores](punteros/operadores.md)
 
