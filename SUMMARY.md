@@ -36,4 +36,5 @@
   * [Llamadas a funciones](funciones/llamadas-a-funciones.md)
 * [Punteros](punteros.md)
   * [Operadores](punteros/operadores.md)
+  * [Punteros como argumentos](punteros/punteros-como-argumentos.md)
 
