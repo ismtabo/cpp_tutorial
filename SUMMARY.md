@@ -38,5 +38,5 @@
   * [Operadores](punteros/operadores.md)
   * [Punteros como argumentos](punteros/punteros-como-argumentos.md)
 * [Arrays](arrays.md)
-  * Arrays Y Funciones
+  * [Arrays Y Funciones](arrays/arrays-y-funciones.md)
 
