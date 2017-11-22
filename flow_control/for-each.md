@@ -1,5 +1,5 @@
 # for-each
-Este bucle sirve para iterar sobre elementos iterables (array) y acceder a sus valores directamente:
+Este bucle sirve para recorrer sobre estructuras iterables (array) y acceder a sus valores directamente:
 ```cpp
 #include <iostream>
 using namespace std;
