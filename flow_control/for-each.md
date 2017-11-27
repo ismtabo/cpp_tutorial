@@ -1,4 +1,4 @@
-# for-each
+# for-in
 Este bucle sirve para recorrer sobre estructuras iterables (array) y acceder a sus valores directamente:
 ```cpp
 #include <iostream>
