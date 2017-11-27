@@ -8,10 +8,10 @@ Si se quiere pasar un array como parámetro de una función hay que hacerlo medi
 using namespace std;
 
 /*Función de inicialización del array*/
-icicalizarArray(int * x, int tam);
+void icicalizarArray(int * x, int tam);
 
 /*Función para imprimir el array*/
-imprimirArray(int * x, int tam);
+void imprimirArray(int * x, int tam);
 
 
 int main ()
@@ -19,27 +19,25 @@ int main ()
  int vector[5];
  icicalizarArray(vector, 5);
  imprimirArray(vector, 5);
- 
+
  return 0;
 }
 
-icicalizarArray(int * x, int tam)
+void icicalizarArray(int * x, int tam)
 {
  int contador=0;
- for(int& n : x)  {
-    n=contador;
-    contador++;
+ for(int i=0; i< tam; i++)  {
+    x[i]=i;
   }
 }
 
 
-imprimirArray(int * x, int tam)
+void imprimirArray(int * x, int tam)
 {
- for(int n : x)  {
-    cout<< n<< " ";
+ for(int i=0; i< tam; i++)  {
+    cout<< x[i]<< " ";
   }
   cout << '\n';
-}
 }
 
 
