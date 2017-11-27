@@ -31,7 +31,7 @@ int main ()
 }
 ```
 **Pregunta**
->- ¿Cual es la diferencia entre `vector[i][j]` y `vector[i]`?, ¿Cual es la salida del código anterior?
+>- ¿Cual es la salida del código anterior?
 
 **Ejercicio**
 >- Modificar el código anterior para que los elementos del vector vayan de mayor a menor y se impriman de menor a mayor.
