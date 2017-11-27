@@ -7,7 +7,6 @@ Ejemplo:
  #include <iostream>
 /* Prototipo */
 void cambia (int *var1, int *var2);
-
 int main ()
 {
   int i=1, j=2;
@@ -15,7 +14,6 @@ int main ()
   Cambia (&i, &j);
   printf ("Valores despues de funcion Cambia: i=%d, j=%d", i, j);
   }
-  
 /* Definición */
 void cambia (int *a, int *b)
   {
@@ -25,18 +23,6 @@ void cambia (int *a, int *b)
   *b = tmp;
   }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 \*pasar por referencia se pasa la dirección de memoria de la variable y no su valor.
 
 
