@@ -40,4 +40,5 @@
 * [Arrays](arrays.md)
   * [Arrays Y Funciones](arrays/arrays-y-funciones.md)
 * [Struct](struct.md)
+  * [Definición de \_Structs\_](struct/definicion-de-structs.md)
 
