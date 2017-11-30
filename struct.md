@@ -13,7 +13,7 @@ struct nombre {
 };
 ```
 
-Esta característica heredada de **C**, permite definir y utilizar tipos abstractos de datos, muy útil al necesitar combinar distintos tipos de datos primitivos 
+Esta característica heredada de **C** es muy útil al poder combinar distintos tipos de datos primitivos (`int`, `double`, ...), junto tipos complejos tales como `string`, bajo un nombre; permitiéndonos así, nuevos tipos abstractos de datos en nuestro código, como se va a mostrar a continuación.
 
 
 
