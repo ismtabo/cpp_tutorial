@@ -1,43 +1,19 @@
 # Struct
 
-Es una colección de variables del mismo o distinto tipo que se referencia bajo un único nombre, proporcionando un medio eficaz de mantener junta la información relacionada.
-La definición de una estructura se realiza de la siguiente manera:
-```
-struct  nombre {
-    lista de variables
-    };
-```
-Donde struct es la palabra clave que indica al compilador que se va a definir una estructura, nombre es el identificador de la estructura, y en lista de variables es donde se declaran las variables que van a componer esa estructura.
-Ejemplo:
+<!--Es una colección de variables del mismo o distinto tipo que se referencia bajo un único nombre, proporcionando un medio eficaz de mantener junta la información relacionada.  
+La definición de una estructura se realiza de la siguiente manera:-->
+
+Un _struct_ o estructura es un conjunto de elementos agrupados bajo un mismo nombre. Cada uno de estos elementos se le considera un "miembro" de la estructura. En **C++** se declaran mediante la siguiente sintaxis:
+
 ```cpp
-struct complejo{
-    double real;
-    double imag;
-    };
+struct nombre {
+    tipo_miembro_1 nombre_miembro1;
+    tipo_miembro_2 nombre_miembro2;
+    tipo_miembro_3 nombre_miembro3;
+};
 ```
-Definida la estructura se pueden declarar variables de ese tipo. Hay varias maneras de hacerlo:
-- Directamente en la deficnión:
-```
-struct  nombre {
-    lista de variables
-    }var1, var2, var3,...;
-```
-- Tras la definición:
-```
-struct  nombre {
-    lista de variables
-    };
-struct nombre var1, var2, var3,...
-```
-- Usando la sentencia *typedef*, que permite definir tipos de datos. Su uso con los structs es el siguiente:
-```
-typedef struct{
-lista de variables
-}nombre;
-nombre var1, var2, var3,...
-```
-Para acceder a los valores de la estructura se hace de la siguiente manera:
-```
-nombre.miembro
-```
-Nombre es como hemos llamado a la variable y miembro el nombre de cualquiera de las variables declaradas *lista de variables*
+
+Esta característica heredada de **C** es muy útil al poder combinar distintos tipos de datos primitivos (`int`, `double`, ...), junto tipos complejos tales como `string`, bajo un nombre; permitiéndonos así, nuevos tipos abstractos de datos en nuestro código, como se va a mostrar a continuación.
+
+
+
