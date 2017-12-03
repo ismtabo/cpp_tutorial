@@ -41,5 +41,22 @@ vector<T> v{x,y,z...};
 // Equivalente al anterior
 vector<T> v={x,y,z...};
 ```
+El contenedor ```vector```  permite añadir elementos de forma dinámica con la función ```push_back(type variable)```
 
+Ejemplo: Añadir los valores 0 al 9 a un vector inicialmente vacío.
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+int main()
+{
+    vector<int> v; //vector vacío de enteros
+    for(int i=0; i!=10; ++i)
+        v.push_back(i); // Añade de forma progresiva
+    // los valores del 0 al 9
+    for(int i=0; i!=10; ++i)
+        cout<<v[i]<<" ";//Acceso a los elementos como en C
+    cout<<endl;
+}
+```
 
