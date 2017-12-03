@@ -39,8 +39,10 @@
   * [Punteros como argumentos](punteros/punteros-como-argumentos.md)
 * [Arrays](arrays.md)
   * [Arrays Y Funciones](arrays/arrays-y-funciones.md)
+  * [Vector](arrays/vector.md)
 * [Struct](struct.md)
   * [Uso de \_Structs\_](struct/uso-de-structs.md)
   * [Definición de \_Structs\_](struct/definicion-de-structs.md)
   * [Punteros de \_Structs\_](struct/punteros-de-structs.md)
   * [\_Structs\_ de \_Structs\_](struct/structs-de-structs.md)
+
