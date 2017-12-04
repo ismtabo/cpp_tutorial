@@ -21,19 +21,19 @@ Ejemplo de uso:
 using namespace std;
 
 int main(){
-    vector<int> mi_vector;
-    if(mi_vector.empty())
+    vector<int> my_vector;
+    if(my_vector.empty())
         cout << "El vector esta vacio\n";
-    mi_vector.push_back(2);
-    mi_vector.push_back(3);
-    mi_vector.push_back(4);
-    cout << "El numero de elementos que hay en el vector son " << mi_vector.size() <<'\n';
-    cout << "El primer elemento es " << mi_vector.front() << '\n';
-    cout << "El ultimo elemento es " << mi_vector.back() << '\n';
-    mi_vector.pop_back();
-    cout << "Ahora el ultimo elemento es " << mi_vector.back() << '\n';
-    mi_vector.clear();
-    cout << "Ahora el vector contiene " << mi_vector.size() << " elementos\n";
+    my_vector.push_back(2);
+    my_vector.push_back(3);
+    my_vector.push_back(4);
+    cout << "El numero de elementos que hay en el vector son " << my_vector.size() <<'\n';
+    cout << "El primer elemento es " << my_vector.front() << '\n';
+    cout << "El ultimo elemento es " << my_vector.back() << '\n';
+    my_vector.pop_back();
+    cout << "Ahora el ultimo elemento es " << my_vector.back() << '\n';
+    my_vector.clear();
+    cout << "Ahora el vector contiene " << my_vector.size() << " elementos\n";
     return 0;
 }
 ```
