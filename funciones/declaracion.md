@@ -8,9 +8,5 @@ tipo nombre (tipo param1, tipo param2, ...);
 
 La declaración de una función de esta forma se llama **prototipo.**
 
-Los prototipos deben definirse antes del main y es aconsejable añadir comentario sobre su uso.
-
-
-
-
+Los prototipos deben definirse antes del main y es aconsejable añadir comentario sobre su uso. No es necesario incluir identificadores en los parámetros en la declaración del prototipo.
 

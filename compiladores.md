@@ -18,7 +18,7 @@ Para compilar este programa tenéis varias posibilidades según el sistema opera
 
 | Compilador | Instrucción |
 |--------|--------|
-| **GCC** | `$ g++ -std=c++0x helloworld.cpp -o HelloWorld` |
+| **GCC** | `$ g++ -std=c++11 helloworld.cpp -o HelloWorld` |
 | **Clang** | `$ clang++ -std=c++11 -stdlib=libc++ helloworld.cpp -o HelloWorld` |
 
 _Opciones especiales_:
