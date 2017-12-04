@@ -59,7 +59,7 @@ int main()
     cout<<endl;
 }
 ```
-Una vez que hemos creado el vector, podemos acceder a los elementos con los corchetes cuadrados (como un array normal) o usando el built-in `.at`, definido en la clase `vector`,con el índice del elemento como parámetro:
+Una vez que hemos creado el vector, podemos acceder a los elementos con los corchetes cuadrados (como un array normal) o usando el built-in `.at`, definido en la clase `vector`, con el índice del elemento como parámetro:
 ```cpp
 #include <iostream>
 #include <vector>
