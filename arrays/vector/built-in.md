@@ -37,3 +37,5 @@ int main(){
     return 0;
 }
 ```
+Para saber más, puedes consultar [documentación ofcial](http://www.cplusplus.com/reference/vector/vector/) la de
+`vector`.
