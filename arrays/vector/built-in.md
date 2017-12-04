@@ -6,5 +6,3 @@ A continuación se muestran las más importantes:
 |--------|--------|
 | `operator[]` o `at()` | Método empleado para acceder un elemento del vector mediante su indice |
 | `front()` | Delvuelve el primer elemento del vector |
-|--------|--------|
-
