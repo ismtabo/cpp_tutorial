@@ -41,6 +41,7 @@
   * [Arrays Y Funciones](arrays/arrays-y-funciones.md)
   * [Vector](arrays/vector.md)
     * [Uso](arrays/vector/uso.md)
+    * [Built-in](arrays/vector/built-in.md)
 * [Struct](struct.md)
   * [Uso de \_Structs\_](struct/uso-de-structs.md)
   * [Definición de \_Structs\_](struct/definicion-de-structs.md)
