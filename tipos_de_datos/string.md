@@ -66,7 +66,7 @@ using namespace std;
 
 int main ()
 {
-  string name ("Juan");
+  string name ("John");
 
   cout<<name.at(0)<<endl;
   cout<<name.size()<<endl;
