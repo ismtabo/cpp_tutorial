@@ -7,7 +7,7 @@ A veces es conveniente dar un nombre a un valor constante:
 #include <iostream>
 using namespace std;
 
-// Expresiones constantes
+// Constant definitions
 const double pi = 3.14159;
 const char newline = '\n';
 

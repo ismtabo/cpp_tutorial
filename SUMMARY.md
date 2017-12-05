@@ -15,7 +15,7 @@
 * [Operadores](operadores/README.md)
   * [Operadores aritméticos, bit a bit, evaluación y lógicos](operadores/aritmeticos.md)
   * [Asignación compuesta](operadores/asignacion_compuesta.md)
-  * [Incremento y decremento \(++,--\)](operadores/incremento_y_decremento.md)
+  * [Incremento y decremento](operadores/incremento_y_decremento.md)
   * [Asignacion ternaria](operadores/asignacion_ternaria.md)
   * [Operador coma, casting y sizeof](operadores/coma_casting_size.md)
 * [Entrada y salida básica](entrada_salida_basica.md)
