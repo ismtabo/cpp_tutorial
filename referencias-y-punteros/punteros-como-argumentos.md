@@ -4,7 +4,7 @@ Hemos hablado de parámetros que pueden pasarse por valor o por referencia. En e
 
 Al utilizar un puntero como parámetro de una función, pasamos la **dirección de la variable**, por lo que si modificamos el contenido de esa dirección, esta se va a ver alterada al acabar la ejecución de la función. 
 
-Ejemplo:
+Ejemplo con la función de intercambio, que hemos visto en la sección sobre **referencias**:
 
 ```cpp
 #include <iostream>
@@ -16,7 +16,7 @@ void swap (int*, int*);
 /* Main */
 int main ()
 {
-  int i=1, j=2;
+  int i=0, j=1;
   cout << "Values of i and j before swap: ";
   cout << i << " " << j << endl;
   
@@ -26,15 +26,22 @@ int main ()
 }
   
 /* Definition */
-void swap (int *a, int *b)
-  {
+void swap (int *a, int *b) {
   int tmp;
   tmp = *a;
   *a = *b;
   *b = tmp;
-  }
+}
 ```
-\*pasar por referencia se pasa la dirección de memoria de la variable y no su valor.
+
+Al igual que en el caso en el uso de **referencias**, la salida del código anterior será:
+```
+Values of i and j before swap: 0 1
+Values of i and j before swap: 1 0
+```
+
+
+
 
 
 
