@@ -13,10 +13,10 @@ Ejemplo paso por valor y referencia:
 using namespace std;
 
 /*Función de inicialización del array*/
-void icicalizarArray(vector<int>& x, int tam); //paso por referencia
+void inicilizarArray(vector<int>&, int); //paso por referencia
 
 /*Función para imprimir el array*/
-void imprimirArray(vector<int> x, int tam);//paso por valor
+void imprimirArray(vector<int>, int);//paso por valor
 
 int main ()
 {

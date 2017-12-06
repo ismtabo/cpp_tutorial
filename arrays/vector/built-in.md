@@ -1,7 +1,5 @@
-# Built-in
-Un built-in son funciones predefinidas en la clase. (`.at()` que mostramos anteriormente)
-
-A continuación se muestran las más importantes:
+# Funciones de la clase `vector`
+Alguna de las funciones más importantes de `vector`:
 
 | Método | Funcionalidad |
 |--------|--------|
