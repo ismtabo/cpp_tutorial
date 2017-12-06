@@ -1,4 +1,5 @@
-# Acceso a los valoresLLa forma de acceder a los valores:
+# Acceso a los valores
+La forma de acceder a los valores:
 ```
 name [index]
 ```

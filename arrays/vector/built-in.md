@@ -1,4 +1,6 @@
-# Funciones de la clase `vector`
+# Métodos y Funciones de `vector`
+
+
 Alguna de las funciones más importantes de `vector`:
 
 | Método | Funcionalidad |
