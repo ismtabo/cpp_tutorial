@@ -8,7 +8,7 @@ Si se quiere pasar un array como parámetro de una función hay que hacerlo medi
 using namespace std;
 
 /*Función de inicialización del array*/
-void icicalizarArray(int *x, int tam);
+void inicicalizarArray(int *x, int tam);
 
 /*Función para imprimir el array*/
 void imprimirArray(int x[], int tam);
@@ -23,7 +23,7 @@ int main ()
  return 0;
 }
 
-void icicalizarArray(int *x, int tam)
+void inicicalizarArray(int *x, int tam)
 {
  int contador=0;
  for(int i=0; i< tam; i++)  {
