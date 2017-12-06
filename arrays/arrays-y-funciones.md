@@ -1,14 +1,32 @@
-# Métodos y Funciones de `vector`
+# Arrays y Funciones
 
 El nombre del array es un puntero a la posición en memoria del primer elemento.  
 Si se quiere pasar un array como parámetro de una función hay que hacerlo mediante referencia, es decir, pasar el nombre del array a la función. Existe un problema, y es que la función desconoce el tamaño del array y nos podemos salir.
 
+Existen varias formas de representar este puntero en la cabecera de la función:
+- Estas dos formas funcionan exactamente igual, aun que conceptualmente representan lo mismo.
+
+
+```cpp
+void method(int * array);
+```
+o
+```cpp
+void method(int array[]);
+```
+- Esta forma de pasar el array le indicas cual es el tamaño que tendrá y si no coincide dará error.
+
+```cpp
+void method(int array[size_of_the_array]);
+```
+ 
+Ejemplo de código:
 ```cpp
 #include <iostream>
 using namespace std;
 
 /*Función de inicialización del array*/
-void inicicalizarArray(int *x, int tam);
+void inicicalizarArray(int x[], int tam);
 
 /*Función para imprimir el array*/
 void imprimirArray(int x[], int tam);
@@ -23,7 +41,7 @@ int main ()
  return 0;
 }
 
-void inicicalizarArray(int *x, int tam)
+void inicicalizarArray(int x[], int tam)
 {
  int contador=0;
  for(int i=0; i< tam; i++)  {
