@@ -13,7 +13,7 @@ int x(0); // Don't mixed up with function declaration
 int x{0};
 ```
 
-**Aviso**: _Este último inicializador sólo está disponible con el estandar _`C++11`_, esto significa que para compilarlo necesitaremos usar la opción _`-std=c++11`_._
+**Aviso**: _Este último inicializador sólo está disponible a partir del estándar _`C++11`_, esto significa que para compilarlo necesitaremos usar la opción _`-std=c++11`_ con dicho estándar o posteriores._
 
 Código de ejemplo:
 

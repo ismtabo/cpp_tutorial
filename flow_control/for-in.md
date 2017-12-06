@@ -59,4 +59,4 @@ Su salida sería:
 
 Como vemos, los valores de la lista se han modificado.
 
-Es **importante** remarcar que esto solo funciona con el **estándar 11 de C++**
+Es **importante** remarcar que esto solo funciona con **estándares posteriores a C++11**.
