@@ -49,5 +49,18 @@ int *ptr = matrix;
 Como hemos visto, `matrix` es un puntero al primer _array_(primera fila), por lo que el compilador nos avisará que los tipos `int (*)[3]` de `matrix` y el de `int *` de `prt` son incompatibles. Por lo tanto el código correcto sería:
 ```cpp
 int matrix[2][3]= {{1,2,3}, {4,5,6}};
-int *ptr[3] = matrix;
+int (*ptr)[3] = matrix;
 ```
+
+Pero cuidado, el puntero `ptr` nos servirá para navegar entre las filas, ya que es un puntero a _arrays_ de enteros de tamaño tres, de tal manera que cuando incrementemos el valor del puntero con `ptr++` la dirección de memoria a la que apunta incrementará 12 bytes (tamaño del tipo `int[3]`), saltando a la dirección de la siguiente fila. Por lo que el acceso desde punteros a elementos se deberá hacer mediante:
+```cpp
+int *elemptr = *ptr;
+cout << *elemptr << endl;       // Element [0][0]
+cout << *(elemptr + 2) << endl; // Element [0][2]
+ptr++;
+elemptr = *ptr;
+cout << *elemptr << endl;       // Element [1][0]
+cout << *(elemptr + 2) << endl; // Element [1][2]
+```
+
+
