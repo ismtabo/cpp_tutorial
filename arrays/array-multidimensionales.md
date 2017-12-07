@@ -38,9 +38,13 @@ Para acceder un valor que se encuentre en la fila `i` y columna `j` --elemento d
 matrix[i][j]
 ```
 
-## Arrays multidimensionales y punteros
+## _Arrays_ multidimensionales y referencias
 
-Si los arrays unidimensionales estaban relacionados con los punteros, como podemos relacionarlos cuando tienen más de una dimensión. Primero tenemos que plantearnos que produciría el siguiente código:
+Al igual que con los _arrays_ de una dimensión, las referencias no cambian su comportamiento. Se utilizan de igual manera, teniendo cuidado de tener el mismo tipo que el array multidimensional al que se quiere referenciar.
+
+## _Arrays_ multidimensionales y punteros
+
+Si los _arrays_ unidimensionales estaban relacionados con los punteros, como podemos relacionarlos cuando tienen más de una dimensión. Primero tenemos que plantearnos que produciría el siguiente código:
 ```
 int matrix[2][3]= {{1,2,3}, {4,5,6}};
 int *ptr = matrix;
@@ -62,5 +66,38 @@ elemptr = *ptr;
 cout << *elemptr << endl;       // Element [1][0]
 cout << *(elemptr + 2) << endl; // Element [1][2]
 ```
+
+**Aviso**: como se puede observar, al declarar el puntero `ptr` se debe incluir `* ptr` entre paréntesis ya que el operador `[·]` tiene mayor precedencia.
+
+## _Arrays_ multidimensionales y funciones
+
+Por último, para pasar estos _arrays_ de _arrays_ como parámetros de una función, lo haremos de una manera muy similar a la vista para _arrays_ de una dimensión, teniendo cuidado con definir correctamente los tamaños de cada dimensión del array, y en el caso de utilizar punteros, tener especial cuidado con lo visto en el apartado anterior. Las formas de declarar como parámetro serán: 
+
+**Mediante un puntero:**
+```cpp
+void method(int (*)[size_of_2nd_dim]);
+```
+
+**Mediante tamaño indefinido de alguna dimensión:**
+```cpp
+void method(int [][size_of_2nd_dim]);
+```
+
+**Mediante tamaños definidos de cada dimensión:**
+```cpp
+void method(int [size_of_1st_dim][size_of_2nd_dim]);
+```
+
+## Más de dos dimensiones
+
+Lo visto es escalable a 3 o más dimensiones, teniendo especial cuidado en los siguientes detalles:
+- El nombre del _array_ multidimensional será un **puntero** al primer elemento de la siguiente dimensión.
+- Los _arrays_ son punteros a la dirección de memoria del primer elemento de la colección.
+- Los **punteros** utilizados deben ser del **mismo tipo**, tener las **mismas dimensiones** y tener el mismo **tamaño de cada dimensión** que a lo que se quiere apuntar. A excepción de la primera, la cual la identificamos con `(*)`. Es decir: 
+Array: `int[1][2][3]` Punteros:
+    - Primera dimensión: `int(*)[2][3]`
+    - Segunda dimensión: `int(*)[3]`
+    - Tercera dimensión(elemento final): `int*`
+
 
 

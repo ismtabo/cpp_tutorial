@@ -71,11 +71,9 @@ void printVector(const vector<int>& x)
 {
   for(int i: x)
     cout<< i << " ";
-  cout << '\n';
+  cout << endl;
 }
 ```
-
-
 
 **Pregunta**
 >- ¿Por qué el la función `initializeVector` usamos paso por referencia y en `printVector` usamos paso por referencia con el modificador `const`?

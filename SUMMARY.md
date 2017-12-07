@@ -50,6 +50,7 @@
     * [Acceso](arrays/vector/acceso.md)
     * [Métodos y Funciones](arrays/vector/built-in.md)
     * [Vector Y Funciones](arrays/vector/vector-y-funciones.md)
+    * [Vectores multidimensionales](arrays/vector/vectore-multidimensionales.md)
 * [Struct](struct/README.md)
   * [Definición de Structs](struct/definicion-de-structs.md)
   * [Uso de Structs](struct/uso-de-structs.md)

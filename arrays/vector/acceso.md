@@ -26,12 +26,12 @@ Ejemplo: Añadir los valores 0 al 9 a un vector inicialmente vacío.
 using namespace std;
 int main()
 {
-    vector<int> v; //vector vacío de enteros
+    vector<int> v;             // Empty vector of integers
     for(int i=0; i!=10; ++i)
-        v.push_back(i); // Añade de forma progresiva
-    // los valores del 0 al 9
+        v.push_back(i);        // Add i element at each iteration
+    // Prints values from 0 to 9
     for(int i=0; i!=10; ++i)
-        cout<<v[i]<<" ";//Acceso a los elementos como en C
+        cout<<v[i]<<" ";       // Access to values as in arrays
     cout<<endl;
 }
 ```

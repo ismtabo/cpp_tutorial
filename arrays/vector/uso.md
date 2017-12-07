@@ -24,20 +24,19 @@ int main(){
 ```
 Existen múltiples posibilidades de iniciación:
 ```cpp
-// Vector v de tipo de dato T vacío
+// Empty vector v of type T
 vector<T> v;
-// v2 es copia del vector v1
+// v2 copy of vector v1
 vector<T> v2(v1);
-// Equivalente al anterior
+// Equivalent to sample above
 vector<T> v2=v1;
-// v tiene n valores con valor val
+// v with n elements with value equals to val
 vector<T> v(n,val);
-// v tiene n valores inicializados a un valor por
-// defecto que dependerá del tipo de dato T.
-// Para tipos de dato como int, double el valor es 0
+// v with n elements of default value of T. 
+// For int type, default value is 0.
 vector<T> v(n);
-// v inicializado con los valores x,y,z, ...
+// v initialize with elements x, y, z, ...
 vector<T> v{x,y,z...};
-// Equivalente al anterior
+// Equivalent to sample above
 vector<T> v={x,y,z...};
 ```
