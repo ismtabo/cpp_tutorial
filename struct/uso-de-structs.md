@@ -33,7 +33,10 @@ Complex_t complex {1, 1};
 Complex_t complex {.r = 1, .i = 1}; // With member name asociation
 ```
 
-**Aviso**: No es necesario inicializar un _struct_ según se define. La sintáxis de inicialización es válida para asignar nuevos valores, únicamente con estándares **C++11** o posteriores.
+**Aviso**: 
+- No es necesario inicializar un _struct_ según se define. 
+- La sintáxis de inicialización es válida para asignar nuevos valores, únicamente con estándares **C++11** o posteriores. 
+- En la sintáxis de inicilización utilizando los nombres de los miembros es necesario utilizar el mismo orden que en la definición del _struct_.
 
 ## Escritura y lectura de los miembros
 Esta estructura de _complex_ tiene dos miembros _real_ e _imag_, con tipo `double` en ambos casos. De esta manera si nosotros quiesiesemos declarar el número complejo _1+1i_ lo haríamos como se expone en el código siguiente:

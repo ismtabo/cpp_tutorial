@@ -36,6 +36,7 @@ typedef struct{
   type_member_1 member1;
   type_member_2 member2;
   type_member_3 member3;
+  ...
 } name_t;
 
 name_t var1, var2, var3, ... ;
