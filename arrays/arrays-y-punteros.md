@@ -58,3 +58,7 @@ for(ptr = array; (ptr-array) < 5; ++ptr)
     cout << *ptr << " ";
 cout << endl;
 ```
+
+Ejercicio
+---
+- Modificar el último ejemplo para imprimir por pantalla los elementos del array pero desde el final al principio.
