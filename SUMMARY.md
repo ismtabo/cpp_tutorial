@@ -43,7 +43,7 @@
 * [Arrays](arrays/README.md)
   * [Acceso](arrays/acceso.md)
   * [Arrays y punteros](arrays/arrays-y-punteros.md)
-  * [Arrays Y Funciones](arrays/arrays-y-funciones.md)
+  * [Arrays y funciones](arrays/arrays-y-funciones.md)
   * [Vector](arrays/vector/README.md)
     * [Uso](arrays/vector/uso.md)
     * [Acceso](arrays/vector/acceso.md)
@@ -54,3 +54,4 @@
   * [Uso de Structs](struct/uso-de-structs.md)
   * [Punteros de Structs](struct/punteros-de-structs.md)
   * [Structs de Structs](struct/structs-de-structs.md)
+
