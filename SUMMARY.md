@@ -9,6 +9,7 @@
   * [Inicialización](tipos_de_datos/inicializacion.md)
   * [Deducción de tipo](tipos_de_datos/deduccion.md)
   * [String](tipos_de_datos/string.md)
+    * [Operaciones con strings](tipos_de_datos/string/uso-de-strings.md)
   * [Constantes](tipos_de_datos/constantes/literales.md)
     * [Expresiones tipadas](tipos_de_datos/constantes/expresiones_tip.md)
     * [Definiciones de preprocesador](tipos_de_datos/constantes/preprocesador.md)
