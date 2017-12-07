@@ -5,7 +5,7 @@ Es preferible realizar el paso por referencia, debido a que al pasar por valor s
 
 Una excelente práctica de programación es calificar como de tipo `const` aquellos argumentos que sean referencias pero que no deseemos modificar. Si modificamos la referencia el compilador nos avisará.
 
-Ejemplo paso por valor y referencia:
+Ejemplo paso por valor:
 
 ```cpp
 #include <iostream>
@@ -40,43 +40,42 @@ void printVector(vector<int> x)
 }
 ```
 
-Ejemplo con const:
+Ejemplo paso por referencia:
 
 ```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
 
-/*Función de inicialización del array*/
-void icicalizarArray(vector<int>& x, int tam);
+/*Function which initialize vector*/
+void initializeVector(vector<int>&, int);
 
-/*Función para imprimir el array*/
-void imprimirArray(const vector<int>& x, int tam);
+/*Function which prints vector at stdout*/
+void printVector(const vector<int>&);
 
 int main ()
 {
- int vector[5];
- icicalizarArray(vector, 5);
- imprimirArray(vector, 5);
- return 0;
+  vector<int> int_vector;
+  initializeVector(vector, 5);
+  printVector(vector, 5);
+  return 0;
 }
 
-void icicalizarArray(vector<int>& x, int tam)
+void initializeVector(vector<int>& x, 5)
 {
- int contador=0;
- for(int i=0; i< tam; i++)  {
-    x[i]=i;
-  }
+  for(int i=0; i< tam; i++)
+     x.push_back(i);
 }
 
-void imprimirArray(const vector<int>& x, int tam)
+void printVector(const vector<int>& x)
 {
- for(int i=0; i< tam; i++)  {
-    cout<< x[i]<< " ";
-  }
+  for(int i: x)
+    cout<< i << " ";
   cout << '\n';
 }
 ```
 
+
+
 **Pregunta**
->- ¿Por qué el la función `icicalizarArray` usamos paso por referencia y en `imprimirArray` usamos paso por referencia con el modificador `const`?
+>- ¿Por qué el la función `initializeVector` usamos paso por referencia y en `printVector` usamos paso por referencia con el modificador `const`?
