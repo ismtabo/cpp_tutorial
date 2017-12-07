@@ -28,6 +28,3 @@ Como hemos visto en el ejemplo anterior, los string se declaran y se le asignan 
 
 > * Pruebe a asignar nuestra variable `mystring` el valor `This is a string`, e imprimirlo por pantalla.
 > * Inicialice dos nuevos string `cadena` y `caracteres`, mediante los operadores de inicialización `( . )` y `{ . }` que hemos visto con anterioridad.
-
-
-

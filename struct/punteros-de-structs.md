@@ -30,5 +30,3 @@ ptr_complex= &complex;
 cout << ptr_complex->r;       // 1
 cout << ptr_complex->i;       // 1
 ```
-
-

@@ -76,6 +76,3 @@ void printArray(int x[], int tam)
   cout << '\n';
 }
 ```
-
-
-

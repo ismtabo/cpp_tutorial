@@ -23,5 +23,3 @@ struct LinkedList_t {
 Ejercicio
 ---
 - En las listas doble enlazadas cada elemento tiene acceso a su precedesor y al siguiente, implemente una estructura que represente dicho elemento.
-
-

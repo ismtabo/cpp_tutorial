@@ -56,4 +56,3 @@ Esto se debe a que al hacer la referencia `int &i = j;` se establece un alias en
 
 **Pregunta**
 >- ¿Qué ocurrirá si declaramos una tercera referencia `h` sobre `i`? 
-

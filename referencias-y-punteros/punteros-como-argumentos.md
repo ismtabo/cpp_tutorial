@@ -39,13 +39,3 @@ Al igual que en el caso en el uso de **referencias**, la salida del código ante
 Values of i and j before swap: 0 1
 Values of i and j before swap: 1 0
 ```
-
-
-
-
-
-
-
-
-
-

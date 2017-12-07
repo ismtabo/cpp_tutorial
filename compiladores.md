@@ -37,6 +37,3 @@ Estos compiladores también están integrados en diversos IDEs que facilitan la 
 | [**Atom**](https://atom.io/) | Windows/Linux/MacOS |
 | [**Visual Studio Code**](https://code.visualstudio.com) | Windows/Linux/MacOS |
 | [**Clion**](https://www.jetbrains.com/clion/) | Windows/Linux/MacOS |
-
-
-

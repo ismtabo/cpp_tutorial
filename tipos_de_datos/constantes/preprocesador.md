@@ -27,4 +27,3 @@ int main ()
 Como `#include` las sentencias `#define` son directivas del **pre-procesador** y no necesitan `;`.
 
 **Aviso**: el reemplazado significa que si el define es un cálculo complejo de una variable, este se repetirá todas aquellas veces en las que se encuentre el identificador.
-

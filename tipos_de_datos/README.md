@@ -26,5 +26,3 @@ Tipos fundamentales
 
 
 Pero veamos que tipos de datos hay en **C++** y como podemos generar los nuestros propios.
-
-

@@ -88,5 +88,3 @@ También se pueden generar arrays y vectores de _structs_ indicando el nombre de
 Complex_t complex_array[10];      // Array of 10 complex numbers
 vector<Complex_t> complex_vector; // Vector of complex numbers
 ```
-
-
