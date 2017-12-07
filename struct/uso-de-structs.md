@@ -6,7 +6,7 @@ Para su definición, tal como dijimos en la página anterior hay que dar un nomb
 Ejemplo:
 
 ```cpp
-struct complex_t{
+struct Complex_t{
     double r;
     double i;
 };
@@ -15,7 +15,7 @@ struct complex_t{
 Esta estructura de _complex_ tiene dos miembros _real_ e _imag_, con tipo `double` en ambos casos. De esta manera si nosotros quiesiesemos declarar el número complejo _1+1i_ lo haríamos como se expone en el código siguiente:
 
 ```cpp
-complex_t complex;
+Complex_t complex;
 complex.r = 1;
 complex.i = 1;
 ```
@@ -30,12 +30,12 @@ cout << complex.i;   // 1
 Al definir un _struct_ puede utilizarse también como tipo de los parámetros de una función, tanto para la cabecera, como para la definición de la variable.
 
 ```cpp
-int magnitude(complex_t);
+int magnitude(Complex_t);
 
 /* Main */
 // ...
 
-int magnitude(complex_t complex){
+int magnitude(Complex_t complex){
     ...
 }
 ```

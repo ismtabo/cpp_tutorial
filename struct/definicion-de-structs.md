@@ -41,4 +41,4 @@ typedef struct{
 name_t var1, var2, var3, ... ;
 ```
 
-**Consejo**: por convención, en **C/C++** se suelen nombrar a los nuevos tipos definidos (**structs** o tipos creados mediante `typedef`) terminando el nombre con `_t`, como `complex_t`, para indicar que es un tipo. Más sobre convenciones de programación en: [Naming convention](https://en.wikipedia.org/wiki/Naming_convention_\(programming\))
+**Consejo**: por convención, en **C/C++** se suelen nombrar a los nuevos tipos definidos (**structs** o tipos creados mediante `typedef`) con la primera con mayúscula y terminando el nombre con `_t`, como `Complex_t`, para indicar que es un tipo. Más sobre convenciones de programación en: [Naming convention](https://en.wikipedia.org/wiki/Naming_convention_\(programming\))
