@@ -98,6 +98,3 @@ Array: `int[1][2][3]` Punteros:
     - Primera dimensión: `int(*)[2][3]`
     - Segunda dimensión: `int(*)[3]`
     - Tercera dimensión(elemento final): `int*`
-
-
-

@@ -33,6 +33,10 @@ std::vector<std::vector<int> > v { v1, v2 };
 std::vector<std::vector<int> > v { { a, b, c }, { d, e, f } };
 ```
 
+## Tamaños de las dimensiones
+
+Debido a que las colecciones de la clase `vector` permiten cambiar dinámicamente de tamaño, esto afecta también a vectores con más de una dimensión.
+
 ## Acceso a elementos
 
 Dado que lo que vamos a tener son vectores de vectores, para acceder a los datos, hay que tener en cuenta que el operador `[·]` y la función `.at(·)` sobre las primeras dimensiones nos devolverá objetos de tipo `vector`, por lo que tendremos que tener cuidado con los tipos en dichos casos.

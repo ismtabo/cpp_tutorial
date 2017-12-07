@@ -14,10 +14,7 @@ int main()
 ```
 Como hemos visto ambas formas de acceder al vector funciona, pero es preferible usar `.at` tiene implementado un control de acceso para impedir que nos salgamos del rango del vector.
 
-
-El contenedor ```vector```  permite añadir elementos de forma dinámica con la función ```push_back(type variable)```
-
-
+El contenedor ```vector```  permite añadir elementos de forma dinámica con la función ```push_back(type variable)```.
 
 Ejemplo: Añadir los valores 0 al 9 a un vector inicialmente vacío.
 ```cpp
