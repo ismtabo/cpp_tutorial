@@ -46,5 +46,8 @@ int matrix[2][3]= {{1,2,3}, {4,5,6}};
 int *ptr = matrix;
 ```
 
-Como hemos visto, `matrix` es un puntero al primer _array_(primera fila), por lo que el compilador nos avisará que los tipos `int (*)[3]` de `matrix` y el de `int *` de `prt` son incompatibles. 
-
+Como hemos visto, `matrix` es un puntero al primer _array_(primera fila), por lo que el compilador nos avisará que los tipos `int (*)[3]` de `matrix` y el de `int *` de `prt` son incompatibles. Por lo tanto el código correcto sería:
+```cpp
+int matrix[2][3]= {{1,2,3}, {4,5,6}};
+int *ptr = matrix;
+```
