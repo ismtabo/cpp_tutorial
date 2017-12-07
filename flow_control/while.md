@@ -3,9 +3,9 @@ _while_
 
 El bucle `while` posiblemente sea el más sencillo de entender de todos, su estructura es la siguiente:
 
-while (condicion) sentencia
+`while (condition) statement`
 
-Este bucle primero mira la `condicion` y si esta se cumple permite ejecutar la `sentencia`, acto seguido volverá a evaluar la `condicion`, y si esta vuelve a ser verdadero, repetirá la ejecución de la `sentencia`. Esto permite que seguir repitiendo la `sentencia` siempre que se cumpla la `condición`. Veamos el siguiente caso de ejemplo:
+Este bucle primero evalua `condition` y si esta se cumple permite ejecuta `statement`, acto seguido volverá a evaluar `condition`, y si esta vuelve a ser verdadero, repetirá la ejecución de `statement`. Esto permite que seguir repitiendo la sentencia siempre que se cumpla la condición. Veamos el siguiente caso de ejemplo:
 
 ```cpp
 #include <iostream>
@@ -20,7 +20,7 @@ int main ()
     --n;
   }
 
-  cout << "¡Despegue!\n";
+  cout << "Blast-off!\n";
 }
 ```
 
@@ -36,7 +36,7 @@ El flujo del anterior código de la siguiente manera:
     * Esto se repetirá hasta que al decrementar `n`, esta sea igual a 0(la condición no se cumpla)
 * `while` evalúa la expresión y esta no se cumple.
 * Se ignora el conjunto de sentencias y se prosigue con la ejecución.
-* Se ejecuta la sentencia `cout<<"Despegue!\n";`
+* Se ejecuta la sentencia `cout<<"Blast-off!\n";`
 
 Como vemos el bucle se repite en este caso un número de veces determinado ya que la condición se evalúa sobre un valor numérico, y existe un decremento dentro del conjunto de código. Esta evaluación se puede hacer con cualquier expresión lógica que hemos visto con anterioridad.
 

@@ -20,13 +20,13 @@ scanf("%d", &a);
 E imprimir por salida estandar:
 
 ```cpp
-cout << "Tengo " << age << " años y mi codigo postal es " << codigo_postal;
+cout << "I am " << age << " years old and my postal code is " << postal_code;
 ```
 
 Somos capaces de sustituirlo por la sentencia equivalente en `printf`:
 
 ```cpp
-printf("Tengo %d y mi codigo postal es %d", edad, codigo_postal);
+printf("I am %d years old and my postal code is %d", age, postal_code);
 ```
 
 Como los tipos básicos son heredados de **C**, los formatos y los caracteres de escape para reconocer cada uno de ellos es similar. 
