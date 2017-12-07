@@ -48,8 +48,8 @@
     * [Métodos y Funciones](arrays/vector/built-in.md)
     * [Vector Y Funciones](arrays/vector/vector-y-funciones.md)
 * [Struct](struct/README.md)
-  * [Uso de \_Structs\_](struct/uso-de-structs.md)
-  * [Definición de \_Structs\_](struct/definicion-de-structs.md)
-  * [Punteros de \_Structs\_](struct/punteros-de-structs.md)
-  * [\_Structs\_ de \_Structs\_](struct/structs-de-structs.md)
+  * [Uso de Structs](struct/uso-de-structs.md)
+  * [Definición de Structs](struct/definicion-de-structs.md)
+  * [Punteros de Structs](struct/punteros-de-structs.md)
+  * [Structs de Structs](struct/structs-de-structs.md)
 
