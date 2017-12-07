@@ -1,9 +1,13 @@
 # for
+
 Este bucle a diferencia de los dos anteriores, se usa para iterar sabiendo el número de veces que se va a hacer. Su estructura es la siguiente:
 ``` 
-for(inic; exp_booleana ; actuaizar)
-    sentencia
+for(initial value; condition ; update)
+    statement
 ```
+
+La dinámica de este bucle se resume en el uso de un iterador o contador con una inicialización declarada en `initial value`, que mientras se cumpla `condition` ejecutará `statement`; actualizando el valor de este iterador o contador según `update`.
+
 Esto en un código C++ se traduce en:
 ```cpp
 #include <iostream>
@@ -15,7 +19,7 @@ int main ()
     cout << n << ", ";
   }
 
-  cout << "¡Despegue!\n";
+  cout << "Blast-off!\n";
 }
 ```
 El flujo del código anterior es el siguiente:
@@ -28,7 +32,7 @@ El flujo del código anterior es el siguiente:
   - como es verdadera repetirá las operaciones.
   - Esto se repetirá hasta que n sea igual a 10 (que la condición se cumpla)
 - Se ignora el conjunto de sentencias y se prosigue con la ejecución.
-- Se ejecuta la sentencia `cout<<"Despegue!\n";`
+- Se ejecuta la sentencia `cout<<"Blast-off!\n";`
 
 Una alternativa de representar el for, es la siguiente:
 ```cpp
@@ -37,6 +41,7 @@ for( n=0; n<=10; n++)  {
     cout << n << ", ";
   }
 ```
+
 **Pregunta**
 >- En este último ejemplo ¿Qué pasará con el valor de n tras la ejecución? Se mantiene o no.
 

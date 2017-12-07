@@ -1,5 +1,7 @@
-Asignación compuesta (+=, -=, *=, /=, %=, >>=, <<=, &=, ^=, |=)
-====
+# Asignación compuesta 
+
+La asignación compuesta trata de una operación especial, donde la variable a la que se va a asignar posteriormente, se incluye como la parte izquierda de la operación. Entre las asignaciones compuestas se incluyen: `+=, -=, *=, /=, %=, >>=, <<=, &=, ^=, |=`.
+
 
 ```cpp
 #include <iostream>

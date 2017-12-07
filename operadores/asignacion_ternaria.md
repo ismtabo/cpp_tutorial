@@ -1,7 +1,7 @@
 Asignación ternaria
 ====
 
-**C++** también nos permite asignar un valor u otro según una condición. Esto se hace de la siguiente manera:
+Al igual que **C**, **C++** también nos permite asignar un valor u otro según una condición. Esto se hace de mediante la siguiente sentencia:
 
 `condition ? value1 : value2`
 

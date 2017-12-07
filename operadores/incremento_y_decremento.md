@@ -1,5 +1,8 @@
-Incremento y decremento (++,&#45;&#45;)
+Incremento y decremento
 ====
+
+Las asignaciones compuestas para las operaciones de suma y resta tienen otra variante más acortada, donde la parte derecha de la operación toma el valor unitario (`1`). Estás alternativas son respectivamente, `++` y `--`.
+
 ```cpp
 #include <iostream>
 using namespace std;
