@@ -26,7 +26,7 @@ int main ()
   return 0;
 }
 
-void initializeVector(vector<int>& x, 5)
+void initializeVector(vector<int> x, 5)
 {
   for(int i=0; i< tam; i++)
      x.push_back(i);
