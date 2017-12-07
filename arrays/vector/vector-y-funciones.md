@@ -36,7 +36,7 @@ void printVector(vector<int> x)
 {
   for(int i: x)
     cout<< i << " ";
-  cout << '\n';
+  cout << endl;
 }
 ```
 
