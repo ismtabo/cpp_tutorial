@@ -1,7 +1,7 @@
 # Vector como argumento de funciones
 Al igual que los vectores de **C**, un contenedor `vector` puede pasarse por valor o por referencia.
 
-El paso por referencia es preferido debido a en el paso por valor debemos realizar una copia de todo el contenedor. Si tiene muchos elementos el proceso llevaría un tiempo considerable.
+Es preferible realizar el paso por referencia, debido a que al pasar por valor se realizaría una copia de todo el contenedor. Si tiene muchos elementos el proceso llevaría un tiempo considerable.
 
 Una excelente práctica de programación es calificar como de tipo `const` aquellos argumentos que sean referencias pero que no deseemos modificar. Si modificamos la referencia el compilador nos avisará.
 
@@ -12,33 +12,30 @@ Ejemplo paso por valor y referencia:
 #include <vector>
 using namespace std;
 
-/*Función de inicialización del array*/
-void inicilizarArray(vector<int>&, int); //paso por referencia
+/*Function which initialize vector*/
+void initializeVector(vector<int>&, int);
 
-/*Función para imprimir el array*/
-void imprimirArray(vector<int>, int);//paso por valor
+/*Function which prints vector at stdout*/
+void printVector(vector<int>);
 
 int main ()
 {
- int vector[5];
- icicalizarArray(vector, 5);
- imprimirArray(vector, 5);
- return 0;
+  vector<int> int_vector;
+  initializeVector(vector, 5);
+  printVector(vector, 5);
+  return 0;
 }
 
-void icicalizarArray(vector<int>& x, int tam)//paso por referencia
+void initializeVector(vector<int>& x, 5)
 {
- int contador=0;
- for(int i=0; i< tam; i++)  {
-    x[i]=i;
-  }
+  for(int i=0; i< tam; i++)
+     x.push_back(i);
 }
 
-void imprimirArray(vector<int> x, int tam)//paso por valor
+void printVector(vector<int> x)
 {
- for(int i=0; i< tam; i++)  {
-    cout<< x[i]<< " ";
-  }
+  for(int i: x)
+    cout<< i << " ";
   cout << '\n';
 }
 ```
