@@ -44,6 +44,7 @@
   * [Acceso](arrays/acceso.md)
   * [Arrays y punteros](arrays/arrays-y-punteros.md)
   * [Arrays y funciones](arrays/arrays-y-funciones.md)
+  * [Array multidimensionales](arrays/array-multidimensionales.md)
   * [Vector](arrays/vector/README.md)
     * [Uso](arrays/vector/uso.md)
     * [Acceso](arrays/vector/acceso.md)
