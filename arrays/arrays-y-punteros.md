@@ -40,8 +40,21 @@ Siempre y cuando se cumpla `0 <= i < n`, y nos salgamos del _array_ accediendo a
 
 Las bases que hacen posible ese acceso desde el puntero a los elementos del _array_ se conoce como aritmética de punteros y consta de cuatro operaciones básicas:
 
-- **Asignación**: `int *ptr = array;`
-- **Valor guardado en una dirección**: `*(ptr)`
-- **Dirección del puntero**: `&(ptr)`
-- **Incremento del puntero**: `ptr++`
-- **Resta**: `int *ptr2 = array; cout << ptr - ptr2`
+- **Asignación**: como su nombre indica, asignar al puntero una dirección de memoria: `int *ptr = array;`
+- **Valor guardado en una dirección**: como vimos en la pasada sección, este operador devuelve el valor de la dirección del puntero: `*(ptr)`
+- **Dirección del puntero**: valor de la dirección de memoria donde está guardado el puntero, no confundir con la dirección a la que apunta:  `&(ptr)`
+- **Incremento del puntero**: al incrementar o decrementar el valor, la dirección que contiene el puntero variará según el tipo de este, al sumarse o restarse tantos bytes como correspondan al tipo: `ptr++` Es decir, en un puntero a entero, la unidad por la que se incrementa o decrementa son 4 (bytes).
+- **Resta**: diferencia numérica entre dos direcciones de memoria, el resultado al igual que con la operación anterior se mide según el tipo del puntero: `int *ptr2 = array; cout << ptr - ptr2` Esta operación nos sirve de ayuda al poder calcular el tamaño de un array, calculando la diferencia entre los punteros al último y al primer elemento.
+
+## Recorrer _array_ con punteros
+
+A continuación ponemos el ejemplo de recorrer un array no con índices sino con punteros:
+
+```cpp
+int array[5] = {1,2,3,4,5};
+int *ptr;
+
+for(ptr = array; (ptr-array) < 5; ++ptr)
+    cout << *ptr << " ";
+cout << endl;
+```
