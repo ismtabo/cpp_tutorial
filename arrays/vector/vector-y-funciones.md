@@ -20,9 +20,9 @@ void printVector(vector<int>);
 
 int main ()
 {
-  vector<int> int_vector;
-  initializeVector(vector, 5);
-  printVector(vector, 5);
+  vector<int> my_vector;
+  initializeVector(my_vector, 5);
+  printVector(my_vector, 5);
   return 0;
 }
 
@@ -55,9 +55,9 @@ void printVector(const vector<int>&);
 
 int main ()
 {
-  vector<int> int_vector;
-  initializeVector(vector, 5);
-  printVector(vector, 5);
+  vector<int> my_vector;
+  initializeVector(my_vector, 5);
+  printVector(my_vector, 5);
   return 0;
 }
 
