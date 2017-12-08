@@ -23,17 +23,18 @@ using namespace std;
 int main(){
     vector<int> my_vector;
     if(my_vector.empty())
-        cout << "El vector esta vacio\n";
+        cout << "Vector is empty\n";
     my_vector.push_back(2);
     my_vector.push_back(3);
     my_vector.push_back(4);
-    cout << "El numero de elementos que hay en el vector son " << my_vector.size() <<'\n';
-    cout << "El primer elemento es " << my_vector.front() << '\n';
-    cout << "El ultimo elemento es " << my_vector.back() << '\n';
+    cout << "Number of elements in my_vector: " << my_vector.size() << endl;
+    cout << "First element: " << my_vector.front() << endl;
+    cout << "Last element: " << my_vector.back() << endl;
     my_vector.pop_back();
-    cout << "Ahora el ultimo elemento es " << my_vector.back() << '\n';
+    cout << "Pop last element of vector" << endl
+    cout << "Last element: " << my_vector.back() << endl;
     my_vector.clear();
-    cout << "Ahora el vector contiene " << my_vector.size() << " elementos\n";
+    cout << "Number of elements in my_vector " << my_vector.size() << endl;
     return 0;
 }
 ```

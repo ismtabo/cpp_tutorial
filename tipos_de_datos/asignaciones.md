@@ -41,6 +41,3 @@ En el caso anterior hemos dado un ejemplo en el que operamos con las distintas v
 **Pregunta**
 
 > * ¿Es posible sumar un entero a un float, o a un caracter?¿Cuál es el resultado final?
-
-
-

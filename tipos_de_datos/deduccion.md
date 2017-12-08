@@ -9,6 +9,3 @@ int a = 0;
 auto foo = a;      // Same result as: int bar = foo;
 decltype(a) bar;   // Same effect as: int bar;
 ```
-
-
-

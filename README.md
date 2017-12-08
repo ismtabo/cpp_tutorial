@@ -14,10 +14,3 @@ Al final de esta **Hour of Code**, espero que **C++** os haya convencido y sea d
 _<center>
 Sin más dilación comenzamos con el tutorial.
 </center>_
-
-
-
-
-
-
-

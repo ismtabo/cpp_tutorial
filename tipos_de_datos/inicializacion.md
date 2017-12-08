@@ -46,6 +46,3 @@ Salida
 
 > * Modifique el ejemplo anterior para que a, b, y c sean variables de punto flotante inicializadas en 5.0, 3.4, 2.11
 > * Pruebe si puede utilizarse para inicializar caracteres.
-
-
-

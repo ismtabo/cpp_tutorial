@@ -32,4 +32,3 @@ printf("I am %d years old and my postal code is %d", age, postal_code);
 Como los tipos básicos son heredados de **C**, los formatos y los caracteres de escape para reconocer cada uno de ellos es similar. 
 
 **Aviso**: El caso especial de los string nos puede causar errores debido a que su representación en ambos lenguajes no es la misma. Como sabemos en **C** un string en un array de caracteres terminado con el carácter de escape `\0`, en cambio en **C++** tiene una clase propia con operaciones y miembros especiales. Por suerte, existe una conversión sobre la clase string `.c_string()` que nos permite imprimirlos mediante el `printf`.
-

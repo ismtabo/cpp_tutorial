@@ -15,7 +15,3 @@ La biblioteca correspondiente a la entrada y salida es `iostream`. Esta contiene
 | `clog` | Estandar _stream_ de salida de log |
 
 Como observamos hay dos principales instancias `cin` y `cout` que son los métodos estandar de entrada y salida. También encontramos dos especializaciones de salida `cerr` y `clog` que se comportan de manera similar a la la salida estandar pero con sus peculiaridades que más adelante explicaremos.
-
-
-
-

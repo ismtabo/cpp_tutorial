@@ -59,6 +59,3 @@ int main ()
 > ¿Cuál es la salida del código anterior?
 
 Como observamos, también podemos agrupar asignaciones del mismo valor a un conjunto de variables.
-
-
-

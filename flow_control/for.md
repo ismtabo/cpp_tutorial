@@ -53,5 +53,3 @@ for( n=0; n<=10; n++)  {
 **Ejercicio 2**
 >- Hacer un código C++ que imprima por pantalla <br> 1 <br> 12 <br> 123 <br> 1234
 >- Consejo: usar dos for anidados
-
-

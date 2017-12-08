@@ -15,6 +15,7 @@ int &i = j;
 ```cpp
 int &i;
 ```
+Una vez inicializada, una referencia no se puede cambiar la variable a la que haga referencia. Ya que el operador de asignación cambiará la variable original.
 
 En el caso anterior hemos definido dos variables `j` e `i`. La primera es una variable de tipo primitivo, pero con la segunda hemos utilizado el operador para definir referencias `&`. Si nosotros ejecutamos el siguiente código de ejemplo:
 
@@ -55,4 +56,3 @@ Esto se debe a que al hacer la referencia `int &i = j;` se establece un alias en
 
 **Pregunta**
 >- ¿Qué ocurrirá si declaramos una tercera referencia `h` sobre `i`? 
-

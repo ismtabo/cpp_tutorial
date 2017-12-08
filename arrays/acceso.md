@@ -13,12 +13,12 @@ using namespace std;
 
 int main ()
 {
- int vector[5];
+ int array[5];
   for(int n=0; n<5; n++)  {
-     vector[n]=n+1;
+     array[n]=n+1;
   }
   for(int n=4; n>=0; n--)  {
-     cout<<vector[n];
+     cout<<array[n];
   }
 
 }
