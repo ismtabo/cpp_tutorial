@@ -34,6 +34,8 @@ Salida
 
 En el caso anterior hemos dado un ejemplo en el que operamos con las distintas variables declaradas. Como has podido observar hemos operado sobre enteros y luego hemos imprimido por pantalla el resultado.
 
+En función de donde se declare esta función puede ser una función de ámbito local o una función de 
+
 **Ejercicio**
 
 > * ¿Cómo harías para operar sobre tipos de coma flotante?
