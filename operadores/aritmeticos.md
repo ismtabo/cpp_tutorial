@@ -19,10 +19,3 @@ Operadores aritméticos, bit a bit, evaluación y lógicos
 | <= | Menor o igual que |
 | >= | Mayor o igual que ||
 
-
-> ¿Qué valor tendrá `a` al final de la ejecución?
-
-Es decir, `a+=2` es equivalente a:
-```cpp
-a = a + 2;
-```
